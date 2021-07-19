@@ -1,0 +1,26 @@
+Img Azul
+#1977c2
+#04133a
+#29bae9
+#156298
+#0e4d83
+#0d406d
+#072d60
+#446989
+#1c94bc
+
+Img Blanca
+#31b1e0
+#7dd3ec
+#aae0f3
+#d7eff9
+#f6fbfb
+#0d56ce
+#6cb4e4
+#5bd4ec
+#bee4ec
+#bcdcf4
+
+
+
+
