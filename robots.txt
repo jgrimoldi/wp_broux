@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /includes/
 Noindex: /includes/
 
-Sitemap: /sitemap.xml
+Sitemap: http://broux.com.ar/sitemap.xml
