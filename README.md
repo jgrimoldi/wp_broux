@@ -20,9 +20,9 @@ Other Technologies: Adobe XD, Adobe Illustrator
 
 ### WebSite
 
-+ before
++ before / antes
 ![old design](./assets/img/old.png)
-+ after
++ after / después
 ![new design](./assets/img/new.png)
 
 ---
