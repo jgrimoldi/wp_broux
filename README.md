@@ -21,9 +21,9 @@ Grimoldi, Joaquín
 ### WebSite
 
 + before / antes
-![old design](./assets/img/old.png)
+![old design](./assets/old.png)
 + after / después
-![new design](./assets/img/new.png)
+![new design](./assets/new.png)
 
 ---
 

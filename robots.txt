@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /includes/
+Noindex: /includes/
+
+Sitemap: /sitemap.xml
