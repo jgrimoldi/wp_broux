@@ -4,19 +4,19 @@ Grimoldi, Joaquín
 
 ## Resumen
 
-Actualizado de página, tipografía y logotipos.
-Desarrollo web para Broux. Es una página informativa acerca de la empresa, buscando acercar al cliente con nuevos métodos de contacto e informarle acerca de sus propósitos.
-Cuenta ademas con un sistema de inicio de sesion y administrador de archivos para usar como alojamiento.
-Tecnologías: HTML5, CSS3, FlexBox, JavaScript, PHP, JSON
-Otras Tecnologías: Adobe XD, Adobe Illustrator
++ Actualizado de página, tipografía y logotipos.
++ Desarrollo web para Broux. Es una página informativa acerca de la empresa, buscando acercar al cliente con nuevos métodos de contacto e informarle acerca de sus propósitos.
++ Cuenta ademas con un sistema de inicio de sesion y administrador de archivos para usar como alojamiento.
++ Tecnologías: HTML5, CSS3, FlexBox, JavaScript, PHP, JSON
++ Otras Tecnologías: Adobe XD, Adobe Illustrator
 
 ## Summary
 
-Updated website, typography and logos.
-Web development for Broux. It is an informative page about the company, seeking to bring the customer with new methods of contact and inform them about their purposes.
-It also has a login system and file manager to use as hosting.
-Technologies: HTML5, CSS3, FlexBox, JavaScript, PHP, JSON
-Other Technologies: Adobe XD, Adobe Illustrator
++ Updated website, typography and logos.
++ Web development for Broux. It is an informative page about the company, seeking to bring the customer with new methods of contact and inform them about their purposes.
++ It also has a login system and file manager to use as hosting.
++ Technologies: HTML5, CSS3, FlexBox, JavaScript, PHP, JSON
++ Other Technologies: Adobe XD, Adobe Illustrator
 
 ### WebSite
 
