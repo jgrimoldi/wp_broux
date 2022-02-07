@@ -1,3 +1,140 @@
-:root{
-    --color-main: #072D60;
+:root {
+    --main-color          : #072D60;
+    --font-color-main     : var(--main-color);
+    --font-color-secondary: #FFFFFF;
+    --border-color        : #6889B5;
+    --weight-logo         : 13.384rem;
+    --height-logo         : 13.8rem;
+    --font-size-h1        : 5.2rem;
+    --font-size-h2        : 5rem;
+    --font-size-h3        : 3.2rem;
+    --font-size-banner    : 2.5rem;
+    --font-size-text      : 1.8rem;
+    --font-size-textsnd   : 1.6rem;
+    --font-weight-regular : 400;
+    --font-weight-medium  : 500;
+    --font-weight-bold    : 700;
+    --background-footer   : #202020;
 }
+
+* {
+    margin         : 0;
+    padding        : 0;
+    box-sizing     : border-box;
+    text-decoration: none;
+}
+
+html {
+    font-family    : 'Poppins', sans-serif;
+    font-size      : 62.5%;
+    overflow-x     : hidden;
+    scroll-behavior: smooth;
+}
+
+img {
+    width     : 100%;
+    object-fit: cover;
+}
+
+header,
+main,
+footer {
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    z-index : 1000;
+}
+
+h1 {
+    font-weight   : var(--font-weight-bold);
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size     : var(--font-size-h2);
+    font-weight   : var(--font-weight-medium);
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size     : var(--font-size-h3);
+    font-weight   : var(--font-weight-medium);
+    text-transform: uppercase;
+}
+
+a {
+    text-transform: uppercase;
+}
+
+p,
+a {
+    font-size  : var(--font-size-text);
+    font-weight: var(--font-weight-medium);
+    color      : var(--font-color-main)
+}
+
+.container {
+    width  : 80%;
+    padding: 2rem 0;
+    margin : 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.btn {
+    width        : 32rem;
+    padding      : 1.5rem;
+    border       : 2px solid var(--main-color);
+    border-radius: 5rem;
+    line-height  : 2rem;
+    text-align   : center;
+}
+
+/**** Navbar ****/
+
+.navbar {
+    justify-content: space-between;
+    align-items    : center;
+    transition     : 0.5s linear;
+}
+
+.navbar__social-icon,
+.navbar__brand,
+.navbar__menu {
+    font-size: var(--font-size-banner);
+    cursor   : pointer;
+}
+
+.navbar__brand {
+    font-weight: var(--font-weight-bold);
+}
+
+.navbar__links-link {
+    margin-left  : 3rem;
+    margin-bottom: .7rem;
+}
+
+.navbar__social-icon {
+    margin-left: 2rem;
+}
+
+.navbar__social-icon:hover {
+    color     : var(--border-color);
+    transition: 0.5s all linear;
+}
+
+.navbar__links-link:focus,
+.navbar__links-link:hover {
+    border-bottom: 2px solid var(--main-color);
+    margin-bottom: .5rem;
+}
+
+#menu-icon {
+    display: none;
+}
+
+/**** Footer ****/

@@ -1,0 +1,38 @@
+/**** Index ****/
+.index {
+    position             : absolute;
+    top                  : 0;
+    left                 : 0;
+    width                : 100%;
+    min-height           : 100vh;
+    background           : url(../img/background.webp);
+    background-size      : cover;
+    background-position  : top;
+    background-repeat    : no-repeat;
+    display              : grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+    align-items          : center;
+    gap                  : 1.5rem;
+}
+
+.index__jumbotron {
+    height         : 100%;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+}
+
+.index__jumbotron-title {
+    margin-top: 4rem;
+}
+
+.index__jumbotron-subtitle {
+    color      : var(--font-color-secondary);
+    line-height: 31px;
+    text-shadow: 6px 9px 66px black;
+}
+
+.index__jumbotron-btn {
+    width     : 22.2rem;
+    margin-top: 2rem;
+}
