@@ -186,3 +186,17 @@
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color  : var(--main-color);
 }
+
+/**** clients ****/
+
+.clients {
+    padding: 6rem 0 3rem;
+    color  : var(--font-color-main);
+}
+
+/**** contact ****/
+
+.contact {
+    padding: 6rem 0 3rem;
+    color  : var(--font-color-main);
+}
