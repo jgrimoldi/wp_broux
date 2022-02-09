@@ -1,14 +1,20 @@
 /**** Index ****/
+.background-index {
+    position           : absolute;
+    top                : 0;
+    left               : 0;
+    width              : 100%;
+    min-height         : 100vh;
+    background         : url(../img/background.webp);
+    background-size    : cover;
+    background-position: top;
+    background-repeat  : no-repeat;
+    z-index            : -1;
+}
+
 .index {
-    position             : absolute;
-    top                  : 0;
-    left                 : 0;
     width                : 100%;
     min-height           : 100vh;
-    background           : url(../img/background.webp);
-    background-size      : cover;
-    background-position  : top;
-    background-repeat    : no-repeat;
     display              : grid;
     grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
     align-items          : center;
@@ -26,6 +32,14 @@
     margin-top: 4rem;
 }
 
+.index__jumbotron-logo {
+    width: var(--width-logo);
+}
+
+.index__jumbotron-isologo {
+    width: var(--width-isologo);
+}
+
 .index__jumbotron-subtitle {
     color      : var(--font-color-secondary);
     line-height: 31px;
@@ -35,4 +49,75 @@
 .index__jumbotron-btn {
     width     : 22.2rem;
     margin-top: 2rem;
+}
+
+/**** Service ****/
+
+.service {
+    padding: 3rem 0 0;
+    color  : var(--font-color-main);
+}
+
+.heading {
+    text-align: center;
+    padding   : 0 0 3rem;
+}
+
+.service__container {
+    flex-wrap: wrap;
+    gap      : 1.5rem;
+}
+
+.service__container-card {
+    width          : 100%;
+    min-height     : 300px;
+    flex           : 1 1 30rem;
+    position       : relative;
+    overflow       : hidden;
+    box-shadow     : 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border         : .2rem solid rgba(7, 45, 96, .3);
+    cursor         : pointer;
+    border-radius  : .5rem;
+    justify-content: center;
+    align-items    : center;
+}
+
+.service__container-card .info {
+    width          : 100%;
+    height         : 100%;
+    position       : absolute;
+    top            : -200%;
+    left           : 0;
+    padding        : 0 .8rem;
+    transition     : .5s top ease-out;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+}
+
+.service__container-card .info h3 {
+    text-align: center;
+}
+
+.service__container-card .info p {
+    font-size: var(--font-size-textsnd);
+    color    : #666;
+    padding  : .5rem;
+}
+
+.service__container-card .card {
+    text-align: center;
+    background: #FFF;
+    padding   : 2rem 1rem;
+}
+
+.service__container-card .card i {
+    font-size: 6rem;
+    margin   : 1.5rem 0;
+}
+
+.service__container-card:focus .info,
+.service__container-card:hover .info {
+    background-color: #FFF;
+    top             : 0;
 }

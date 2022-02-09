@@ -3,8 +3,10 @@
     --font-color-main     : var(--main-color);
     --font-color-secondary: #FFFFFF;
     --border-color        : #6889B5;
-    --weight-logo         : 13.384rem;
+    --width-logo          : 13.384rem;
     --height-logo         : 13.8rem;
+    --width-isologo       : 58.3rem;
+    --heigth-isologo      : 8rem;
     --font-size-h1        : 5.2rem;
     --font-size-h2        : 5rem;
     --font-size-h3        : 3.2rem;
@@ -92,6 +94,13 @@ a {
     border-radius: 5rem;
     line-height  : 2rem;
     text-align   : center;
+    transition   : .5s all ease-in-out;
+}
+
+.btn:focus,
+.btn:hover {
+    background-color: var(--main-color);
+    color           : var(--font-color-secondary)
 }
 
 /**** Navbar ****/
@@ -135,6 +144,10 @@ a {
 
 #menu-icon {
     display: none;
+}
+
+.scroll {
+    background: rgba(255, 255, 255, 0.418);
 }
 
 /**** Footer ****/
