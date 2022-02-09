@@ -1,8 +1,9 @@
 :root {
     --main-color          : #072D60;
+    --secondary-color     : #6889B5;
     --font-color-main     : var(--main-color);
     --font-color-secondary: #FFFFFF;
-    --border-color        : #6889B5;
+    --border-color        : var(--secondary-color);
     --width-logo          : 13.384rem;
     --height-logo         : 13.8rem;
     --width-isologo       : 58.3rem;
