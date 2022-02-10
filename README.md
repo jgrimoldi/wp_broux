@@ -31,64 +31,64 @@ Grimoldi, Joaquín
 
 ## General
 
-+ main-color: **#**
++ --main-color          : **#072D60**
 
-+ font-family: **Poppins, sans-serif, FontAwesome**
++ --secondary-color     : **#6889B5**
 
-+ font-color-white: **#**
++ --font-color-main     : **#072D60**
 
-+ font-color-black: **#**
++ --font-color-secondary: **#FFFFFF**
 
-+ font-color-mute: **#**
++ --border-color        : **#6889B5**
 
-+ font-weight-h1: **700**, font-weight-button: **700**
++ --font-weight-regular : **400**
 
-+ font-weight-header: **500**
++ --font-weight-medium  : **500**
 
-+ font-weight-p: **400**, font-weight-label: **400**, font-weight-input: **400**
++ --font-weight-bold    : **700**
 
-+ font-weight-footer: **300**, font-weight-placeholder: **300**
++ --background-footer   : **#202020**
 
 ### Mobile / Celular
 
-+ font-size-h1: **38px**
++ --width-logo          : **13.384rem**
 
-+ font-size-h2: **35px**
++ --height-logo         : **13.8rem**
 
-+ font-size-h3: **25px**
++ --width-isologo       : **58.3rem**
 
-+ font-size-logo: **16px**
++ --heigth-isologo      : **8rem**
 
-+ font-size-a: **16px**
++ --font-size-h1        : **4.2rem**
 
-+ font-size-p: **16px**
++ --font-size-h2        : **4rem**
 
-+ font-size-input: **16px**
++ --font-size-h3        : **2.2rem**
 
-+ font-size-button: **16px**
++ --font-size-banner    : **1.8rem**
 
-+ font-size-social: **25px**
++  --font-size-text     : **1.6rem**
 
-+ font-size-footer: **14px**
++ --font-size-textsnd   : **1.4rem**
 
 ### Desktop / Escritorio
 
-+ font-size-h1: **55px**
++ --width-logo          : **13.384rem**
 
-+ font-size-h2: **50px**
++ --height-logo         : **13.8rem**
 
-+ font-size-h3: **30px**
++ --width-isologo       : **58.3rem**
 
-+ font-size-logo: **18px**
++ --heigth-isologo      : **8rem**
 
-+ font-size-a: **18px**
++ --font-size-h1        : **5.2rem**
 
-+ font-size-p: **18px**
++ --font-size-h2        : **5rem**
 
-+ font-size-input: **18px**
++ --font-size-h3        : **3.2rem**
 
-+ font-size-button: **18px**
++ --font-size-banner    : **2.5rem**
 
-+ font-size-social: **25px**
++ --font-size-text      : **1.8rem**
 
-+ font-size-footer: **16px**
++ --font-size-textsnd   : **1.6rem**

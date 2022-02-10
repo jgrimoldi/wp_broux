@@ -44,7 +44,7 @@
     }
 
     header .navbar__links {
-        padding-top: 7rem;
+        padding-top   : 7rem;
         padding-bottom: 2rem;
     }
 
@@ -66,9 +66,17 @@
 
 @media(max-width:645px) {
     :root {
-        --width-logo: 18.384rem;
-        --height-logo: 13.8rem;
-        --width-isologo: 18.384rem;
+        --width-logo    : 18.384rem;
+        --height-logo   : 13.8rem;
+        --width-isologo : 18.384rem;
         --height-isologo: 13.8rem;
+    }
+
+    .contact__info {
+        gap: 15rem;
+    }
+
+    .contact__info-address {
+        padding: 0 1rem;
     }
 }
