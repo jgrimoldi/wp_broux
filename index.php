@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 
+<?php require_once('./includes/emailer.php') ?>
+
 <head>
     <!-- ============== meta ============== -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="JG">
-    <meta name="description"
-        content="Broux Soluciones Tecnologicas- Sistema líder en de control de tu negocio- Sistemas integrados de organización empresarial- Sistemas de Gestion Comercial- Gestion Comercial estructura innovadora- Interfaz de usuarios- Módulos contables.">
-    <meta name="keywords"
-        content="Soluciones, Tecnología, Sistemas, Sistemas Integrados, Gestion, Contabilidad, Impuestos, Comercio, Sueldos, RRHH, Acopio Cereales, Aceiteras, Molinos, Agroinsumos, Frigorificos, Logistica, AFIP, QR, Remito, Facturas, Documentos electrónicos">
+    <meta name="description" content="Broux Soluciones Tecnologicas- Sistema líder en de control de tu negocio- Sistemas integrados de organización empresarial- Sistemas de Gestion Comercial- Gestion Comercial estructura innovadora- Interfaz de usuarios- Módulos contables.">
+    <meta name="keywords" content="Soluciones, Tecnología, Sistemas, Sistemas Integrados, Gestion, Contabilidad, Impuestos, Comercio, Sueldos, RRHH, Acopio Cereales, Aceiteras, Molinos, Agroinsumos, Frigorificos, Logistica, AFIP, QR, Remito, Facturas, Documentos electrónicos">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="http://broux.com.ar/">
     <meta property="og:image" content="http://broux.com.ar/assets/img/favicon/favicon-196x196.png">
@@ -23,8 +23,7 @@
     <meta property="og:locale:alternate" content="es_LA">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Broux">
-    <meta property="og:description"
-        content="Broux Soluciones Tecnologicas- Sistema líder en de control de tu negocio- Sistemas integrados de organización empresarial- Sistemas de Gestion Comercial- Gestion Comercial estructura innovadora- Interfaz de usuarios- Módulos contables.">
+    <meta property="og:description" content="Broux Soluciones Tecnologicas- Sistema líder en de control de tu negocio- Sistemas integrados de organización empresarial- Sistemas de Gestion Comercial- Gestion Comercial estructura innovadora- Interfaz de usuarios- Módulos contables.">
     <meta property="og:url" content="http://broux.com.ar/">
     <meta property="og:site_name" content="BST">
     <!-- ============== favicon ============== -->
@@ -50,14 +49,12 @@
     <!-- ============== css ============== -->
     <link rel="stylesheet" href="./assets/css/base.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="./assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="preload" href="./assets/css/mobile.css" as="style" media="(max-width: 968px)"
-        onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="./assets/css/mobile.css" as="style" media="(max-width: 968px)" onload="this.onload=null;this.rel='stylesheet'">
 
     <!-- ============== fonts ============== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&amp;display=swap"
-        as="style" onload="this.onload=null; this.rel='stylesheet'">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&amp;display=swap" as="style" onload="this.onload=null; this.rel='stylesheet'">
 
     <!-- ============== noscript ============== -->
     <noscript>
@@ -86,15 +83,10 @@
                 <a href="#contact" class="navbar__links-link">Contacto</a>
             </div>
             <div class="navbar__social d-flex">
-                <a href="./login/index.php" class="navbar__social-icon" target="_blank"
-                    rel="noopener noreferrer" aria-label="Iniciar Sesión"><i class="fas fa-user"></i></a>
-                <a href="https://api.whatsapp.com/send/?phone=phone&text=Hola%21+Me+gustaria+hacer+una+consulta&app_absent=0!"
-                    class="navbar__social-icon" target="_blank" rel="noopener noreferrer"
-                    aria-label="Enviar un Whatsapp"><i class="fab fa-whatsapp"></i></a>
-                <a href="https://youtube.com" class="navbar__social-icon" target="_blank" rel="noopener noreferrer"
-                    aria-label="Youtube"><i class="fab fa-youtube"></i></a>
-                <a href="https://t.me/user" class="navbar__social-icon" target="_blank" rel="noopener noreferrer"
-                    aria-label="Enviar un Telegram"><i class="fab fa-telegram-plane"></i></a>
+                <a href="http://panel.broux.com.ar/" class="navbar__social-icon" target="_blank" rel="noopener noreferrer" aria-label="Iniciar Sesión"><i class="fas fa-user"></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=5492352540334&text=Hola%21+Me+gustaria+hacer+una+consulta&app_absent=0!" class="navbar__social-icon" target="_blank" rel="noopener noreferrer" aria-label="Enviar un Whatsapp"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://youtube.com" class="navbar__social-icon" target="_blank" rel="noopener noreferrer" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+                <a href="https://t.me/user" class="navbar__social-icon" target="_blank" rel="noopener noreferrer" aria-label="Enviar un Telegram"><i class="fab fa-telegram-plane"></i></a>
             </div>
         </div>
     </header>
@@ -107,14 +99,12 @@
                 <div class="index__jumbotron d-flex">
 
                     <picture class="index__jumbotron-logo">
-                        <img class="index-logo" width="133" height="138" src="./assets/img/logos/logo.svg"
-                            alt="BROUX logo azul">
+                        <img class="index-logo" width="133" height="138" src="./assets/img/logos/logo.svg" alt="BROUX logo azul">
                     </picture>
 
                     <h1 class="index__jumbotron-title" aria-label="Broux">
                         <picture class="index__jumbotron-isologo">
-                            <img class="index-isologo" width="583" height="80"
-                                src="./assets/img/logos/broux-isotipo.svg" alt="BROUX logo azul">
+                            <img class="index-isologo" width="583" height="80" src="./assets/img/logos/broux-isotipo.svg" alt="BROUX logo azul">
                         </picture>
                     </h1>
 
@@ -232,8 +222,7 @@
             </section>
             <!-- ============== resume ============== -->
             <section class="media-scroller snaps-inline">
-                <div class="media-element"><img class="clicked" src="./assets/img/services/service-01.jpg"
-                        alt="Aceiteras y molinos"></div>
+                <div class="media-element"><img class="clicked" src="./assets/img/services/service-01.jpg" alt="Aceiteras y molinos"></div>
                 <div class="media-element"><img src="./assets/img/services/service-02.jpg" alt="Agroquimicos"></div>
                 <div class="media-element"><img src="./assets/img/services/service-03.jpg" alt="Cereales"></div>
                 <div class="media-element"><img src="./assets/img/services/service-04.jpg" alt="Comercio"></div>
@@ -260,22 +249,30 @@
                         <div class="contact__info-address">
                             <p><i class="fas fa-map-marker"></i>San Juan 79, Chacabuco, Buenos Aires</p>
                             <p><i class="fas fa-phone-alt"></i>(02352) 430795</p>
-                            <p><i class="fas fa-envelope"></i>oficina@broux.com.ar</p>
+                            <p><i class="fas fa-envelope"></i>info@broux.com.ar</p>
                         </div>
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.591256966033!2d-60.47315498416663!3d-34.63976816691474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b925c9252d60ad%3A0x6075078b2a6d864c!2sSan%20Juan%2079%2C%20Chacabuco%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1644463420140!5m2!1ses-419!2sar"
-                            width="200" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.591256966033!2d-60.47315498416663!3d-34.63976816691474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b925c9252d60ad%3A0x6075078b2a6d864c!2sSan%20Juan%2079%2C%20Chacabuco%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1644463420140!5m2!1ses-419!2sar" width="200" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
-                    <form action="./includes/emailer.php" class="contact__info-form">
+                    <form action="./includes/emailer.php" method="POST" class="contact__info-form">
                         <div class="contact__info-inputs d-flex">
-                            <input class="contact__info-input" type="text" id="name" name="name"
-                                placeholder="Nombre(s) y Apellido(s)" required>
-                            <input class="contact__info-input" type="email" id="email" name="email"
-                                placeholder="Correo electrónico" required>
+                            <input class="contact__info-input" type="text" id="name" name="name" placeholder="Nombre(s) y Apellido(s)" required>
+                            <input class="contact__info-input" type="email" id="email" name="email" placeholder="Correo electrónico" required>
                         </div>
-                        <textarea class="contact__info-input" name="message" id="message" cols="30" rows="10"
-                            placeholder="Mensaje" required></textarea>
-                        <input class="btn" type="submit" value="Contactanos">
+                        <textarea class="contact__info-input" name="message" id="message" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                        <div class="contact__info-message">
+                            <?php if (count($errores) > 0) : ?>
+                                <?php foreach ($errores as $error) : ?>
+                                    <span class="error"><?php echo $error ?></span>
+                                <?php endforeach ?>
+                            <?php endif ?>
+
+                            <?php if (count($successful) > 0) : ?>
+                                <?php foreach ($successful as $successes) : ?>
+                                    <span class="successes"><?php echo $successes ?></span>
+                                <?php endforeach ?>
+                            <?php endif ?>
+                        </div>
+                        <input class="btn" type="submit" name="submit" value="Contactanos">
                     </form>
                 </div>
             </section>
@@ -311,16 +308,10 @@
                         <p><span class="bold">Comunicate al</span> (02352) 430795</p>
                     </div>
                     <div class="footer__social navbar__social d-flex">
-                        <a href="https://panel.broux.com.ar" class="navbar__social-icon" target="_blank"
-                            rel="noopener noreferrer" aria-label="Iniciar Sesión"><i class="fas fa-user"></i></a>
-                        <a href="https://api.whatsapp.com/send/?phone=phone&text=Hola%21+Me+gustaria+hacer+una+consulta&app_absent=0!"
-                            class="navbar__social-icon" target="_blank" rel="noopener noreferrer"
-                            aria-label="Enviar un Whatsapp"><i class="fab fa-whatsapp"></i></a>
-                        <a href="https://youtube.com/" class="navbar__social-icon" target="_blank"
-                            rel="noopener noreferrer" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
-                        <a href="https://t.me/user" class="navbar__social-icon" target="_blank"
-                            rel="noopener noreferrer" aria-label="Enviar un Telegram"><i
-                                class="fab fa-telegram-plane"></i></a>
+                        <a href="http://panel.broux.com.ar/" class="navbar__social-icon" target="_blank" rel="noopener noreferrer" aria-label="Iniciar Sesión"><i class="fas fa-user"></i></a>
+                        <a href="https://api.whatsapp.com/send/?phone=5492352540334&text=Hola%21+Me+gustaria+hacer+una+consulta&app_absent=0!" class="navbar__social-icon" target="_blank" rel="noopener noreferrer" aria-label="Enviar un Whatsapp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://youtube.com/" class="navbar__social-icon" target="_blank" rel="noopener noreferrer" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://t.me/user" class="navbar__social-icon" target="_blank" rel="noopener noreferrer" aria-label="Enviar un Telegram"><i class="fab fa-telegram-plane"></i></a>
                     </div>
                 </div>
             </div>
