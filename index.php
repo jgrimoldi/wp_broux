@@ -72,7 +72,10 @@
     <!-- ============== header ============== -->
     <header class="header">
         <div class="container d-flex navbar">
-            <a href="http://broux.com.ar" class="navbar__brand" rel="noopener noreferrer">Broux.</a>
+            <!-- <a href="http://broux.com.ar" class="navbar__brand" rel="noopener noreferrer">Broux.</a> -->
+            <a href="http://broux.com.ar" rel="noopener noreferrer">
+                <img src="./assets/img/logos/logo.svg" alt="Broux logo azul navbar" width="133" height="138" class="navbar__brand">
+            </a>
             <!-- menu-mobile -->
             <i class="fas navbar__menu fa-bars" id="menu-icon" aria-label="Menú"></i>
             <!-- links -->
@@ -221,7 +224,7 @@
                 </div>
             </section>
             <!-- ============== resume ============== -->
-            <section class="media-scroller snaps-inline">
+            <!-- <section class="media-scroller snaps-inline">
                 <div class="media-element"><img class="clicked" src="./assets/img/services/service-01.jpg" alt="Aceiteras y molinos"></div>
                 <div class="media-element"><img src="./assets/img/services/service-02.jpg" alt="Agroquimicos"></div>
                 <div class="media-element"><img src="./assets/img/services/service-03.jpg" alt="Cereales"></div>
@@ -232,7 +235,49 @@
                 <div class="media-element"><img src="./assets/img/services/service-08.jpg" alt="Ajuste"></div>
                 <div class="media-element"><img src="./assets/img/services/service-09.jpg" alt="Productos"></div>
                 <div class="media-element"><img src="./assets/img/services/service-10.jpg" alt="Recibo"></div>
-            </section>
+            </section> -->
+            <div class="carousel">
+                <button class="carousel__button carousel__button-left is-hidden">
+                    <i class="fas fa-angle-left"></i>
+                </button>
+                <div class="carousel__track-container">
+                    <ul class="carousel__track">
+                        <li class="carousel__slide current-slide">
+                            <img class="carousel__image" src="./assets/img/services/service-01.jpg" alt="Aceiteras y molinos">
+                        </li>
+                        <li class="carousel__slide">
+                            <img class="carousel__image" src="./assets/img/services/service-02.jpg" alt="Agroquimicos">
+                        </li>
+                        <li class="carousel__slide">
+                            <img class="carousel__image" src="./assets/img/services/service-03.jpg" alt="Cereales">
+                        </li>
+                        <li class="carousel__slide">
+                            <img class="carousel__image" src="./assets/img/services/service-04.jpg" alt="Comercio">
+                        </li>
+                        <li class="carousel__slide">
+                            <img class="carousel__image" src="./assets/img/services/service-05.jpg" alt="Gestion">
+                        </li>
+                        <li class="carousel__slide">
+                            <img class="carousel__image" src="./assets/img/services/service-06.jpg" alt="Logistica">
+                        </li>
+                        <li class="carousel__slide">
+                            <img class="carousel__image" src="./assets/img/services/service-07.jpg" alt="Sueldos">
+                        </li>
+                        <li class="carousel__slide">
+                            <img class="carousel__image" src="./assets/img/services/service-08.jpg" alt="Ajuste">
+                        </li>
+                        <li class="carousel__slide">
+                            <img class="carousel__image" src="./assets/img/services/service-09.jpg" alt="Productos">
+                        </li>
+                        <li class="carousel__slide">
+                            <img class="carousel__image" src="./assets/img/services/service-10.jpg" alt="Recibo">
+                        </li>
+                    </ul>
+                </div>
+                <button class="carousel__button carousel__button-right">
+                    <i class="fas fa-angle-right"></i>
+                </button>
+            </div>
             <!-- ============== clients ============== -->
             <section id="clients" class="clients">
                 <h2 class="heading">Nuestros Clientes</h2>
@@ -326,6 +371,8 @@
     <script src="./assets/js/verify.js"></script>
     <!-- ============== collapsible js ============== -->
     <script src="./assets/js/collapsible.js"></script>
+    <!-- ============== carousel js ============== -->
+    <script src="./assets/js/carousel.js"></script>
 
 </body>
 

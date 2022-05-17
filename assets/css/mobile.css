@@ -53,13 +53,17 @@
     }
 
     header .navbar__social {
-        top    : 182%;
+        top    : 147%;
         padding: 1rem 0;
     }
 
     header .navbar__links-link {
         margin-left  : 1rem;
         margin-bottom: .7rem;
+    }
+
+    .navbar__brand{
+        width: 3.5rem;
     }
 
     .footer__copyright-text {
@@ -97,6 +101,14 @@
 
     .contact__info-address {
         padding: 0 1rem;
+    }
+
+    .carousel__button-right{
+        right: 5px;
+    }
+    
+    .carousel__button-left{
+        left: 5px;
     }
 
     .footer__copyright-logo img {

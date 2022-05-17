@@ -112,15 +112,21 @@ a {
     transition     : 0.5s linear;
 }
 
+/* .navbar__brand, */
 .navbar__social-icon,
-.navbar__brand,
 .navbar__menu {
     font-size: var(--font-size-banner);
     cursor   : pointer;
 }
 
-.navbar__brand {
+/* .navbar__brand {
     font-weight: var(--font-weight-bold);
+} */
+
+.navbar__brand{
+    width: 6rem;
+    height: auto;
+    object-fit: contain;
 }
 
 .navbar__links-link {
