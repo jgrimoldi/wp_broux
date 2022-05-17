@@ -103,6 +103,14 @@
         padding: 0 1rem;
     }
 
+    .carousel{
+        height: 250px;
+    }
+    
+    .carousel__image{
+        object-fit: contain;
+    }
+
     .carousel__button-right{
         right: 5px;
     }

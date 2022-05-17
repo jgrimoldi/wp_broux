@@ -223,19 +223,6 @@
                     </div>
                 </div>
             </section>
-            <!-- ============== resume ============== -->
-            <!-- <section class="media-scroller snaps-inline">
-                <div class="media-element"><img class="clicked" src="./assets/img/services/service-01.jpg" alt="Aceiteras y molinos"></div>
-                <div class="media-element"><img src="./assets/img/services/service-02.jpg" alt="Agroquimicos"></div>
-                <div class="media-element"><img src="./assets/img/services/service-03.jpg" alt="Cereales"></div>
-                <div class="media-element"><img src="./assets/img/services/service-04.jpg" alt="Comercio"></div>
-                <div class="media-element"><img src="./assets/img/services/service-05.jpg" alt="Gestion"></div>
-                <div class="media-element"><img src="./assets/img/services/service-06.jpg" alt="Logistica"></div>
-                <div class="media-element"><img src="./assets/img/services/service-07.jpg" alt="Sueldos"></div>
-                <div class="media-element"><img src="./assets/img/services/service-08.jpg" alt="Ajuste"></div>
-                <div class="media-element"><img src="./assets/img/services/service-09.jpg" alt="Productos"></div>
-                <div class="media-element"><img src="./assets/img/services/service-10.jpg" alt="Recibo"></div>
-            </section> -->
             <div class="carousel">
                 <button class="carousel__button carousel__button-left is-hidden">
                     <i class="fas fa-angle-left"></i>
