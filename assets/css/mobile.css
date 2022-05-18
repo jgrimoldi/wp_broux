@@ -1,15 +1,15 @@
 @media(max-width: 991px) {
     :root {
-        --font-size-h1     : 4.2rem;
-        --font-size-h2     : 4rem;
-        --font-size-h3     : 2.2rem;
-        --font-size-banner : 1.8rem;
-        --font-size-text   : 1.6rem;
+        --font-size-h1: 4.2rem;
+        --font-size-h2: 4rem;
+        --font-size-h3: 2.2rem;
+        --font-size-banner: 1.8rem;
+        --font-size-text: 1.6rem;
         --font-size-textsnd: 1.4rem;
     }
 
     .container {
-        width: 100%;
+        width: 90%;
     }
 }
 
@@ -25,26 +25,26 @@
 
     header .navbar__social,
     header .navbar__links {
-        flex-wrap      : wrap;
+        flex-wrap: wrap;
         justify-content: center;
-        position       : absolute;
-        top            : 0;
-        left           : 0;
-        right          : 0;
-        padding-left   : 0;
-        background     : rgba(255, 255, 255, 0.418);
-        z-index        : -1;
-        clip-path      : polygon(0 0, 100% 0, 100% 0, 0 0);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-left: 0;
+        background: rgba(255, 255, 255, 0.418);
+        z-index: -1;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
 
     header .active,
     header .active {
-        clip-path : polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
         transition: .2s all ease-in-out;
     }
 
     header .navbar__links {
-        padding-top   : 7rem;
+        padding-top: 7rem;
         padding-bottom: 2rem;
     }
 
@@ -53,33 +53,33 @@
     }
 
     header .navbar__social {
-        top    : 147%;
+        top: 147%;
         padding: 1rem 0;
     }
 
     header .navbar__links-link {
-        margin-left  : 1rem;
+        margin-left: 1rem;
         margin-bottom: .7rem;
     }
 
-    .navbar__brand{
+    .navbar__brand {
         width: 3.5rem;
     }
 
-    .carousel{
+    .carousel {
         height: 50vh;
     }
 
-    .carousel__button-right{
+    .carousel__button-right {
         right: -15px;
     }
-    
-    .carousel__button-left{
+
+    .carousel__button-left {
         left: -15px;
     }
 
     .footer__copyright-text {
-        width  : 100%;
+        width: 100%;
         padding: 3rem 0;
     }
 
@@ -91,9 +91,9 @@
 
 @media(max-width:645px) {
     :root {
-        --width-logo    : 18.384rem;
-        --height-logo   : 1.8rem;
-        --width-isologo : 18.384rem;
+        --width-logo: 18.384rem;
+        --height-logo: 1.8rem;
+        --width-isologo: 18.384rem;
         --height-isologo: 13.8rem;
     }
 
@@ -108,23 +108,23 @@
 
     .contact__info {
         padding: 0;
-        gap    : 15rem;
+        gap: 15rem;
     }
 
     .contact__info-address {
         padding: 0 1rem;
     }
 
-    .carousel{
-        width: 90%;
-        height: 20vh;
+    .carousel {
+        width: 100%;
+        height: 35vh;
     }
 
-    .carousel__button-right{
+    .carousel__button-right {
         right: 10%;
     }
-    
-    .carousel__button-left{
+
+    .carousel__button-left {
         left: 10%;
     }
 
@@ -145,10 +145,10 @@
     }
 
     .footer__contact-phone {
-        width        : 100%;
-        margin       : 5rem 3rem .5rem;
+        width: 100%;
+        margin: 5rem 3rem .5rem;
         border-bottom: 2px solid var(--border-color);
-        text-align   : center;
+        text-align: center;
     }
 
     .footer__copyright,
@@ -157,8 +157,19 @@
     }
 
     .footer__social {
-        align-items    : center;
+        align-items: center;
         justify-content: center;
+    }
+
+}
+
+@media(max-width:400px) {
+    .carousel {
+        height: 225px;
+    }
+
+    .carousel__image {
+        object-fit: cover;
     }
 
 }
